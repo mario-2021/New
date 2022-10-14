@@ -771,7 +771,7 @@ body.roboto {
 }
 .page .contact {
   min-height: 600px;
-  background-image: url("/NewWebDesign/Data/m1.jpg");
+  background-image: url("/NewWebDesign/Uwalla/Data/m1.jpg");
   background-size: cover;
   padding-top: 80px;
   padding-bottom: 80px;
@@ -919,4 +919,167 @@ body.roboto {
 
 .clearfix {
   clear: both;
+}
+
+@media (max-width: 576px) {
+  .page .sidebar {
+    width: 150px;
+    padding: 5px;
+    left: -150px;
+  }
+  .page .sidebar.no-sidebar {
+    left: 0;
+  }
+  .page .sidebar .logo-area {
+    width: 138px;
+    margin-left: 1px;
+  }
+  .page .content-area {
+    width: 100%;
+  }
+  .page .content-area.no-sidebar {
+    width: calc(100% - 150px);
+  }
+  .page .content-area .newHeight {
+    height: 695px;
+  }
+  .page .content-area .header .userMenu {
+    width: 96px;
+    height: 65px;
+  }
+  .page .content-area .header .userUl {
+    min-width: 450px;
+    left: -86px !important;
+    height: 255px;
+  }
+  .page .content-area .header .page-head {
+    margin-top: -15px;
+    padding: 10px;
+    width: 95%;
+    height: 40%;
+  }
+  .page .content-area .header .page-head .page-description {
+    margin-top: -5px !important;
+  }
+  .page .aboutUS .contentBox .contentBoxDiv {
+    width: 100%;
+  }
+  .page .ourServices {
+    margin-top: 0;
+    height: 2265px !important;
+  }
+  .page .ourServices .servicesBox {
+    position: relative;
+    height: 70px !important;
+    top: 0px;
+  }
+  .page .ourServices .servicesBox .newSize {
+  height: 50px;
+  }
+  .page .ourServices .servicesBox .serviceColl {
+    width: 95%;
+    display: block;
+    height: 325px;
+    overflow: hidden;
+    margin-top: 5px !important;
+  }
+  .ourServices .servicesBoxTwo {
+    top: 1105px !important;  
+  }
+  .page .ourWork .workBox {
+    height: auto !important;
+  }
+  .ourWork .workBox {
+    margin-bottom: -50px !important;
+  }
+  .ourWork .workBox .workImage {
+    width: 50%;
+    margin-bottom: 50px !important;
+  }
+  .page .showImage {
+    margin-top: 125px !important;
+  }
+  .page .showImage .card {
+    width: 255px;
+  }
+  .page .showImage .card h2 {
+    margin-top: 1px;
+  }
+  .page .showImage .card p {
+    margin-bottom: -10px;
+  }
+  .page .contact .info .link {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 767px) {
+  .page .content-area .newHeight {
+    height: 695px;
+  }
+  .page .content-area .header .userMenu {
+    width: 96px;
+    height: 65px;
+  }
+  .page .content-area .header .userUl {
+    min-width: 450px;
+    left: -86px !important;
+    height: 255px;
+  }
+  .page .content-area .header .page-head {
+    margin-top: -15px;
+    padding: 10px;
+    width: 95%;
+    height: 40%;
+  }
+  .page .content-area .header .page-head .page-description {
+    margin-top: -5px !important;
+  }
+  .page .aboutUS .contentBox .contentBoxDiv {
+    width: 100%;
+  }
+  .page .ourServices {
+    margin-top: 0;
+    height: 2265px !important;
+  }
+  .page .ourServices .servicesBox {
+    position: relative;
+    height: 70px !important;
+    top: 0px;
+  }
+  .page .ourServices .servicesBox .newSize {
+  height: 50px;
+  }
+  .page .ourServices .servicesBox .serviceColl {
+    width: 95%;
+    display: block;
+    height: 325px;
+    overflow: hidden;
+    margin-top: 5px !important;
+  }
+  .ourServices .servicesBoxTwo {
+    top: 1105px !important;  
+  }
+  .page .ourWork .workBox {
+    height: auto !important;
+  }
+  .ourWork .workBox {
+    margin-bottom: -50px !important;
+  }
+  .ourWork .workBox .workImage {
+    width: 50%;
+    margin-bottom: 50px !important;
+  }
+  .page .showImage {
+    margin-top: 125px !important;
+  }
+  .page .showImage .card {
+    width: 255px;
+  }
+  .page .showImage .card h2 {
+    margin-top: 1px;
+  }
+  .page .showImage .card p {
+    margin-bottom: -10px;
+  }
 }
