@@ -1,0 +1,65 @@
+$flatBlue: #1B9CFC;
+$flatBlueAlt: #25CCF7;
+
+$flatYellow: #EAB543;
+$flatYellowAlt: #F8EFBA;
+
+$flatGreen: #58B19F;
+$flatGreenAlt: #4ed1b0;
+
+$themes: (
+    green-alt: (color: #58B19F),
+    lite-blue: (color: #0652DD),
+    dark-blue: (color: #1B1464),
+    orange-themes: (color: rgb(238, 90, 36)),
+    red-themes: (color: rgb(234, 32, 39)),
+    dark-themes: (color: #130f40)
+);
+
+@each $theme, $map in $themes {
+    .#{$theme} {
+        .page-head .page-title {
+            color: map-get($map, color);
+        }
+        .page-head .page-description {
+            color: map-get($map, color);
+        }
+        .aboutUS .contentBox h2 {
+            color: map-get($map, color);
+        }
+        .aboutUS .contentBox p {
+            color: map-get($map, color);
+        }
+        .ourServices .servicesBox .serviceColl h2 {
+            color: map-get($map, color);
+        }
+        .ourServices .servicesBox h2 {
+            color: map-get($map, color);
+        }
+        .ourWork .workBox h2 {
+            color: map-get($map, color);
+        }
+        .showImage .card h2 {
+            color: map-get($map, color);
+        }
+        .showImage .card p {
+            color: map-get($map, color);
+        }
+        .contact .container h2 {
+            color: map-get($map, color);
+        }
+        .contact .container .right input {
+            color: map-get($map, color);
+        }
+        .contact .container .info .label {
+            color: map-get($map, color);
+        }
+        .contact .container .info a {
+            color: map-get($map, color);
+        }
+        .contact .container .info .social {
+            color: map-get($map, color);
+        }
+    }
+}
+

@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="./CSS/CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="./CSS/CSS/all.min.css">
+    <link rel="stylesheet" href="./CSS/newDesign.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alkalami&family=Cairo:wght@400;700&family=Open+Sans:wght@300;400;700&family=Public+Sans:wght@200;300;400&family=Roboto:wght@100;300;400;500&family=Source+Sans+Pro:wght@400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./CSS/CSS/normalize.css">
+    <link rel="stylesheet" href="./CSS/CSS/font-awesome.css">
+    <link rel="stylesheet" href="./CSS/CSS/font-awesome.min.css">
+
+    <title>New Design</title>
+
+</head>
+
+<body>
+
+    <div class="page home-page">
+        <div class="setting-box hide-setting">
+            <div class="settingGear">
+                <i class="fa-solid fa-gear settingIcons"></i>
+            </div>
+            <div class="setting-content text-center">
+                <div class="option-box colorOptions">
+                    <h4>Color Options</h4>
+                    <ul class="list-unstyled">
+                        <li data-theme="dark-themes"></li>
+                        <li data-theme="lite-blue"></li>
+                        <li data-theme="dark-blue"></li>
+                        <li data-theme="orange-themes"></li>
+                        <li data-theme="red-themes"></li>
+                        <li data-theme="green-alt"></li>
+                    </ul>
+                </div>
+                <div class="option-box fontOptions">
+                    <h4>Font Options</h4>
+                    <select name="" id="" class="form-control">
+                        <option value="open">Open Sans</option>
+                        <option value="public">public Sans</option>
+                        <option value="Alkalami">Alkalami</option>
+                        <option value="Cairo">Cairo</option>
+                        <option value="source">source Sans Pro</option>
+                        <option value="roboto">roboto</option>
+                    </select>
+                </div>
+                <div class="option-box sizeOption">
+                    <h4>Font Size</h4>
+                    <select name="" id="" class="form-control">
+                        <option value="one">.5 REM</option>
+                        <option value="two">.75 REM</option>
+                        <option value="three">1 REM</option>
+                        <option value="four">1.25 REM</option>
+                        <option value="five">1.5 REM</option>
+                        <option value="six">1.75 REM</option>
+                        <option value="seven">2 REM</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="sidebar">
+            <div class="logo-area text-center mb-4">Uwalla</div>
+            <ul class="links-area list-unstyled">
+                <li><a class="text-decoration-none fw-bold" href="./newDesign.html">Homepage</a></li>
+                <li><a class="text-decoration-none fw-bold toggle-submenu" href="#">forms
+                        <i class="fa fa-angle-right position-absolute iconSize" aria-hidden="true"></i></a>
+                    <ul class="child-links list-unstyled position-relative">
+                        <li><a class="text-decoration-none fw-bold position-relative" href="">Input</a></li>
+                        <li><a class="text-decoration-none fw-bold position-relative" href="">Textarea</a></li>
+                        <li><a class="text-decoration-none fw-bold position-relative" href="">Checkbox</a></li>
+                        <li><a class="text-decoration-none fw-bold position-relative" href="">Radio</a></li>
+                    </ul>
+                <li><a class="text-decoration-none fw-bold toggle-submenu" href="#">Misc
+                        <i class="fa fa-angle-right position-absolute iconSize" aria-hidden="true"></i>
+                    </a>
+                    <ul class="child-links list-unstyled position-relative">
+                        <li><a class="text-decoration-none fw-bold position-relative" href="">Loading</a></li>
+                        <li><a class="text-decoration-none fw-bold position-relative" href="">Breadcrumbs</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="content-area position-relative">
+
+            <div class="position-relative">
+                <img src="./Data/63f15e3bc644e00af4055bbc48b33f33.jpg" alt="" class="img-fluid photoHomePage">
+                <div class="overlay"></div>
+            </div>
+
+            <div class="header">
+                <div class="container-fluid">
+                    <div class="content mainPhoto">
+
+
+                        <i class="fa fa-exchange fa-lg toggle-sidebar headerIcons" aria-hidden="true"></i>
+                        <div class="notification-container">
+                            <i class="btn btn-secondary dropdown-toggle fa fa-bell fl-lg notificationIcone headerIcons"
+                                type="button" id="notifications" data-bs-toggle="dropdown" aria-expanded="false">
+                            </i>
+                            <ul class="dropdown-menu notificationsUl" aria-labelledby="notifications">
+                                <li><a class="dropdown-item" href="#">Notifications
+                                        <span class="fw-bold text-align-center spanNotification">3</span>
+                                    </a>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fa-regular fa-envelope ms-3 me-2">
+                                            </i> You Got Email From...
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Messages
+                                        <span class="fw-bold text-align-center spanMessage">2</span>
+                                    </a>
+                                    <ul class="list-unstyled">
+                                        <li>
+                                            <i class="fa-regular fa-comment ms-3 me-2">
+                                            </i> You Got Comment From...
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li><a class="dropdown-item" href="#">Setting
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="dropdown userMenu" type="button" id="userMenu" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <img src="./Data/IMG.jpg" alt="" class="img-fluid rounded-circle photoMenu">
+                            <span class="spanMenu fw-bold me-2 ms-2">User Mero SH</span>
+                            <i class="fa fa-angle-down fa-lg headerIcons"></i>
+                        </div>
+                        <ul class="dropdown-menu userUl" aria-labelledby="userMenu">
+                            <h3 class="fw-bold userName">Mero SH</h3>
+                            <p class="fw-bold userInfo">Premium Member</p>
+                            <hr>
+                            <ul class="activites-list list-unstyled fw-bold fst-italic">
+                                <li> Add comment on....</li>
+                                <li> Created post on....</li>
+                                <li> Created on charts....</li>
+                            </ul>
+                            <hr>
+                            <div class="row userLinks">
+                                <div class="col">
+                                    <div class="link-box">
+                                        <i class="fa fa-gear fa-lg fa-fw userIcons"></i>
+                                        <span class="fw-bold">Setting</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="link-box">
+                                        <i class="fa fa-user fa-lg fa-fw userIcons"></i>
+                                        <span class="fw-bold">My Profile</span>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="link-box">
+                                        <i class="fa fa-power-off fa-lg fa-fw userIcons"></i>
+                                        <span class="fw-bold">Logout</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </ul>
+                        <i
+                            class="fa-solid fa-up-right-and-down-left-from-center ms-3 toggle-fullscreen headerIcons"></i>
+                        <div class="page-head">
+
+                            <h1 class="page-title fw-bold">Homepage</h1>
+                            <p class="page-description fw-bold mt-5 text-black-50 lead">Lorem ipsum dolor sit amet
+                                consectetur,
+                                adipisicing
+                                elit.
+                                Quibusdam dolorem aspernatur repellendus, cum nesciunt aut maxime tempore molestias
+                                corporis, nostrum vero sed inventore aliquid aliquam, veritatis nam totam exercitationem
+                                ipsa.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="aboutUS mt-5">
+                <div class="container-fluid">
+                    <div class="contentBox mt-3 ms-2 row me-0">
+                        <div class="col-8">
+                            <h2 class="fw-bold text-center">About Us</h2>
+                            <p class="mt-3 text-black-50 fw-bold">Lorem ipsum dolor sit amet, consectetur
+                                adipisicing elit.
+                                Adipisci
+                                commodi
+                                magni voluptas veritatis
+                                sed, itaque vitae dolor dicta facilis ipsa eius repellendus ea aut, eos recusandae,
+                                tempore corporis
+                                consequuntur delectus!</p>
+                            <br>
+                            <p class="text-black-50 fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing
+                                elit. Illo iste eaque ratione amet
+                                quaerat, quisquam, laboriosam deserunt sapiente explicabo eveniet corrupti suscipit.
+                                Laboriosam, accusantium distinctio quo porro at quia dolorum.</p>
+                        </div>
+                        <img src="./Data/f651baf7b4f6b3cdec41f792fa5252b3.jpg" alt=""
+                            class="img-fluid col-4 p-0 imgAbout">
+                    </div>
+                </div>
+            </div>
+
+            <div class="ourServices">
+                <div class="container-fluid">
+                    <div class="servicesBox row ms-2 mt-4">
+                        <div class="col-12 mb-4 mt-4">
+                            <h2 class="text-center fw-bold">Our Services</h2>
+                        </div>
+                        <div class="col-4 serviceColl">
+                            <i class="fa-solid fa-house-user mt-4 brandIcons"></i>
+                            <h2 class="fw-bold text-center mt-1">Branding</h2>
+                            <p class="text-black-50 text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Voluptate, perspiciatis eligendi quaerat est quis tempore laudantium, eos et
+                                beatae, doloribus obcaecati nobis perferendis dolorum officia fuga recusandae maiores
+                                in. Deserunt!</p>
+                        </div>
+
+                        <div class="col-4 serviceColl">
+                            <i class="fa-solid fa-anchor mt-4 brandIcons"></i>
+                            <h2 class="fw-bold text-center mt-1">Branding</h2>
+                            <p class="text-black-50 text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Voluptate, perspiciatis eligendi quaerat est quis tempore laudantium, eos et
+                                beatae, doloribus obcaecati nobis perferendis dolorum officia fuga recusandae maiores
+                                in. Deserunt!</p>
+                        </div>
+
+                        <div class="col-4 serviceColl">
+                            <i class="fa-solid fa-bell mt-4 brandIcons"></i>
+                            <h2 class="fw-bold text-center mt-1">Branding</h2>
+                            <p class="text-black-50 text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Voluptate, perspiciatis eligendi quaerat est quis tempore laudantium, eos et
+                                beatae, doloribus obcaecati nobis perferendis dolorum officia fuga recusandae maiores
+                                in. Deserunt!</p>
+                        </div>
+
+                    </div>
+
+                    <div class="servicesBox row ms-2 mt-2">
+                        <div class="col-4 mt-0 serviceColl">
+                            <i class="fa-solid fa-paper-plane mt-4 brandIcons"></i>
+                            <h2 class="fw-bold text-center mt-1">Branding</h2>
+                            <p class="text-black-50 text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Voluptate, perspiciatis eligendi quaerat est quis tempore laudantium, eos et
+                                beatae, doloribus obcaecati nobis perferendis dolorum officia fuga recusandae maiores
+                                in. Deserunt!</p>
+                        </div>
+
+                        <div class="col-4 mt-0 serviceColl">
+                            <i class="fa-solid fa-network-wired mt-4 brandIcons"></i>
+                            <h2 class="fw-bold text-center mt-1">Branding</h2>
+                            <p class="text-black-50 text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Voluptate, perspiciatis eligendi quaerat est quis tempore laudantium, eos et
+                                beatae, doloribus obcaecati nobis perferendis dolorum officia fuga recusandae maiores
+                                in. Deserunt!</p>
+                        </div>
+
+                        <div class="col-4 mt-0 serviceColl">
+                            <i class="fa-solid fa-desktop mt-4 brandIcons"></i>
+                            <h2 class="fw-bold text-center mt-1">Branding</h2>
+                            <p class="text-black-50 text-center mt-3">Lorem ipsum dolor sit amet consectetur adipisicing
+                                elit. Voluptate, perspiciatis eligendi quaerat est quis tempore laudantium, eos et
+                                beatae, doloribus obcaecati nobis perferendis dolorum officia fuga recusandae maiores
+                                in. Deserunt!</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="ourWork">
+                <div class="container-fluid">
+                    <div class="workBox row ms-2 mt-5">
+                        <div class="col-12 mb-4">
+                            <h2 class="text-center fw-bold">Our Work</h2>
+                        </div>
+                        <div class="col-3">
+                            <img src="./Data/w1.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w2.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w3.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w4.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                    </div>
+                    <div class="workBox row ms-2 mt-5">
+                        <div class="col-3">
+                            <img src="./Data/w5.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w6.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w7.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w8.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                    </div>
+
+                    <div class="workBox row ms-2 mt-5">
+                        <div class="col-3">
+                            <img src="./Data/w9.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w10.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w11.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                        <div class="col-3">
+                            <img src="./Data/w12.jpg" alt="" class="img-fluid col-4 p-0 workPhoto">
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="showImage mt-5">
+                <div class="container-fluid">
+                    <div class="card">
+                        <img src="./Data/s1.jpg" alt="" />
+                        <h2 class="fw-bold">Card Title</h2>
+                        <p class="fw-bold">Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="overlay"></div>
+                <div class="container">
+                    <h2>Contact US</h2>
+                    <form action="">
+                        <div class="left">
+                            <input type="text" placeholder="Your Name" name="username">
+                            <input type="text" placeholder="Your Phone" name="phone">
+                            <input type="email" placeholder="Your Email" name="email">
+                            <input type="text" placeholder="Subject" name="subject">
+                        </div>
+                        <div class="right">
+                            <textarea name="message" placeholder="Your Message"></textarea>
+                            <input type="submit" value="send">
+                        </div>
+                    </form>
+                    <div class="info">
+                        <p class="label fw-bold">Feel free to drop us a line at:</p>
+                        <a href="mailto:mariocpu2017@gmail.com?subject=Contact"
+                            class="link fw-bold">mariocpu2017@gmail.com</a>
+                        <div class="social fw-bold">
+                            Find Us On Social Networks
+                            <i class="fab fa-youtube youTube"></i>
+                            <i class="fab fa-facebook-f faceBook"></i>
+                            <i class="fab fa-twitter twitter"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer">© 2022 <span>MeroSH</span> All Right Reserved
+            </div>
+
+        </div>
+    </div>
+
+    <div class="clearfix"></div>
+
+
+
+    <script src="./JS/bootstrap.bundle.min.js"></script>
+    <script src="./JS/all.min.js"></script>
+    <script src="./JS/jquery.min.js"></script>
+    <script src="./JS/newDesign.js"></script>
+
+</body>
+
+</html>
