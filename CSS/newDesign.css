@@ -929,11 +929,14 @@ body.roboto {
 
 .page .contact {
   min-height: 600px;
-  background-image: url("/NewWebDesign/Uwalla/Data/m1.jpg");
-  background-size: cover;
   padding-top: 80px;
-  padding-bottom: 80px;
   position: relative;
+}
+
+.contactImage {
+  width: 100%;
+  height: 100%;
+  margin-top: -81px;
 }
 
 .page .contact .overlay {
@@ -946,7 +949,8 @@ body.roboto {
 }
 
 .page .contact .container {
-  position: relative;
+  position: absolute;
+  top: 35px;
   z-index: 2;
 }
 
@@ -1155,19 +1159,26 @@ body.roboto {
   }
 
   .page .content-area .header .page-head {
-    margin-top: -15px;
-    padding: 10px;
-    width: 95%;
-    height: 40%;
-    overflow: hidden;
+    display: none;
   }
 
+  .page .content-area .header .hideIcons {
+    display: none;
+  }
+
+  .page .content-area .header .notification-container .notificationIcone {
+    left: -15px;
+  }
   .page .content-area .header .page-head .page-description {
     margin-top: -5px !important;
   }
 
   .page .aboutUS .contentBox .contentBoxDiv {
     width: 100%;
+  }
+
+  .page .aboutUS .contentBox .imgAbout {
+    margin: auto;
   }
 
   .page .ourServices {
@@ -1224,6 +1235,23 @@ body.roboto {
 
   .page .showImage .card p {
     margin-bottom: -10px;
+  }
+
+  .page .contact {
+    min-height: 480px;
+  }
+  .page .contact h2 {
+    margin-bottom: 30px;
+  }
+
+  .page .contact .info {
+    padding: 10px;
+    margin-top: 50px;
+  }
+
+  .page .contact .info .label {
+    font-size: 1.5rem;
+    margin-top: -60px;
   }
 
   .page .contact .info .link {
