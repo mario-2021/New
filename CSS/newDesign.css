@@ -1145,7 +1145,13 @@ body.roboto {
     min-width: 300px !important;
     max-width: 300px !important;
     left: 125px !important;
-    height: 280px;
+    height: 350px;
+    overflow: hidden;
+  }
+
+  .userLinks .userLinksIcon {
+    width: 100% !important;
+    margin-bottom: 10px;
   }
 
   .page .content-area .header .page-head {
