@@ -868,8 +868,8 @@ body.roboto {
   transform: translateX(-50%) skew(0, -10deg);
   border-radius: 50%;
   z-index: -1;
-  -webkit-animation: waving 10s ease-in-out infinite alternate;
-  animation: waving 10s ease-in-out infinite alternate;
+  -webkit-animation: waving 3s ease-in-out infinite alternate;
+  animation: waving 3s ease-in-out infinite alternate;
 }
 
 .page .showImage .card {
@@ -1245,17 +1245,16 @@ body.roboto {
   }
 
   .page .contact .info {
+    display: none;
+  }
+
+  .page .footer {
+    line-height: .5rem;
     padding: 10px;
-    margin-top: 50px;
+    font-size: 10px;
   }
-
-  .page .contact .info .label {
-    font-size: 1.5rem;
-    margin-top: -60px;
-  }
-
-  .page .contact .info .link {
-    font-size: 1.5rem !important;
+  .page .footer span {
+    font-size: 15px;
   }
 }
 
