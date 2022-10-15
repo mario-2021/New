@@ -1142,9 +1142,10 @@ body.roboto {
   }
 
   .page .content-area .header .userUl {
-    min-width: 450px;
-    left: -86px !important;
-    height: 255px;
+    min-width: 200px !important;
+    max-width: 300px !important;
+    left: 150px !important;
+    height: 280px;
   }
 
   .page .content-area .header .page-head {
