@@ -340,7 +340,8 @@
 }
 
 body {
-  background-color: #EAB543;
+  /* background-color: #EAB543; */
+  background-color: #E9E5DD;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -406,7 +407,7 @@ body.roboto {
   top: 0;
   width: 250px;
   height: 100%;
-  background-color: #F8EFBA;
+  background-color: #DAD3BE;
   z-index: 1000;
   padding: 20px;
   -webkit-transition: 0.3s;
@@ -427,7 +428,7 @@ body.roboto {
 }
 
 .page .setting-box .settingGear .settingIcons {
-  color: #FC427B;
+  color: #DAD3BE;
 }
 
 .page .setting-box .setting-content .colorOptions ul li:nth-child(1) {
@@ -468,7 +469,7 @@ body.roboto {
 }
 
 .page .setting-box .setting-content .option-box h4 {
-  color: #58B19F;
+  color: #254336;
   font-weight: bold;
   margin: 10px 0 15px;
 }
@@ -476,6 +477,9 @@ body.roboto {
 .page .setting-box .setting-content .fontOptions .form-control,
 .page .setting-box .setting-content .sizeOption .form-control {
   font-weight: 700;
+  color: #254336;
+  background-color: #B7B597;
+  border: 1px solid #6B8A7A;
 }
 
 .page .sidebar {
@@ -484,8 +488,7 @@ body.roboto {
   top: 0;
   left: 0;
   height: 100%;
-  background-color: #F8EFBA;
-  color: #58B19F;
+  background-color: #DAD3BE;
   padding: 15px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
@@ -495,7 +498,7 @@ body.roboto {
   left: -250px;
 }
 
-.page .sidebar .logo-area {
+/* .page .sidebar .logo-area {
   font-family: "Open Sans", sans-serif !important;
   font-weight: bold !important;
   font-size: 2rem !important;
@@ -509,16 +512,22 @@ body.roboto {
   border-radius: 25%;
   -webkit-box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
   box-shadow: inset 0px 0px 10px 3px rgba(0, 0, 0, 0.3);
-  cursor: pointer;
+  cursor: pointer; 
+} */
+
+.sidebar .logo-area .imgLogo {
+  border-radius: 50%;
+  box-shadow: 0 0 20px 1px #254336;
 }
 
 .page .sidebar .links-area li a {
-  color: #4ed1b0;
+  color: #254336;
   padding: 10px;
   display: block;
   padding: 10px 20px;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  position: relative;
 }
 
 .page .sidebar .links-area li .iconSize {
@@ -538,10 +547,10 @@ body.roboto {
   transform: rotate(90deg);
 }
 
-.page .sidebar .links-area>li>a {
+/* .page .sidebar .links-area>li>a {
   position: relative;
   color: #58B19F;
-}
+} */
 
 .page .sidebar .links-area>li>a::before {
   content: "";
@@ -551,13 +560,14 @@ body.roboto {
   border-radius: 50%;
   width: 10px;
   height: 10px;
-  border: 2px solid #58B19F;
+  border: 2px solid #254336;
   -webkit-transform: translateY(-50%);
   transform: translateY(-50%);
 }
 
 .page .sidebar .links-area>li>a:hover {
   padding-left: 25px;
+  color: #6B8A7A;
 }
 
 .page .sidebar .links-area .child-links {
@@ -644,8 +654,8 @@ body.roboto {
 }
 
 .page .content-area .header .notification-container .notificationIcone {
-  background-color: #F8EFBA;
-  color: #1B9CFC;
+  background-color: #dad3bf;
+  color: #254336;
   border: 2px solid #F8EFBA;
   border-radius: 10px;
   position: absolute;
@@ -654,7 +664,7 @@ body.roboto {
 
 .page .content-area .header .notification-container .notificationsUl {
   border-radius: 20px;
-  background-color: #F8EFBA;
+  background-color: #DAD3BE;
   cursor: pointer;
   top: 10px !important;
   left: -29px !important;
@@ -667,14 +677,14 @@ body.roboto {
 }
 
 .page .content-area .header .notification-container .notificationsUl li a {
-  color: #58B19F;
+  color: #254336;
   font-weight: 500;
 }
 
 .page .content-area .header .notification-container .notificationsUl li a:hover {
   font-weight: bold;
-  background-color: #F8EFBA;
-  color: #1B9CFC;
+  background-color: #6B8A7A;
+  color: #B7B597;
   border-radius: 11px;
 }
 
@@ -682,8 +692,8 @@ body.roboto {
   position: absolute;
   top: 14px;
   right: 15px;
-  background-color: #25CCF7;
-  color: #F8EFBA;
+  background-color: #B7B597;
+  color: #254336;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -694,15 +704,15 @@ body.roboto {
 
 .page .content-area .header .notification-container .notificationsUl li a .spanNotification:hover {
   background-color: transparent;
-  color: #1B9CFC;
+  color: #B7B597;
 }
 
 .page .content-area .header .notification-container .notificationsUl li a .spanMessage {
   position: absolute;
   top: 80px;
   right: 15px;
-  background-color: #25CCF7;
-  color: #F8EFBA;
+  background-color: #B7B597;
+  color: #254336;
   width: 30px;
   height: 30px;
   border-radius: 50%;
@@ -713,7 +723,7 @@ body.roboto {
 
 .page .content-area .header .notification-container .notificationsUl li a .spanMessage:hover {
   background-color: transparent;
-  color: #1B9CFC;
+  color: #B7B597;
 }
 
 .page .content-area .header .notification-container .notificationsUl::after {
@@ -723,7 +733,7 @@ body.roboto {
   left: 35px;
   border-style: solid;
   border-width: 15px;
-  border-color: transparent transparent #F8EFBA transparent;
+  border-color: transparent transparent #DAD3BE transparent;
 }
 
 .page .content-area .header .userMenu {
@@ -740,7 +750,7 @@ body.roboto {
 }
 
 .page .content-area .header .userMenu .spanMenu {
-  color: #F8EFBA;
+  color: #DAD3BE;
 }
 
 .page .content-area .header .userUl {
@@ -748,8 +758,8 @@ body.roboto {
   border: none;
   padding: 20px;
   top: 5px !important;
-  border: 1px solid #ddd;
-  background-color: #F8EFBA;
+  border: 1px solid #F8EFBA;
+  background-color: #DAD3BE;
 }
 
 .page .content-area .header .userUl::after {
@@ -763,27 +773,27 @@ body.roboto {
 }
 
 .page .content-area .header .userUl .userName {
-  color: #58B19F;
+  color: #254336;
 }
 
 .page .content-area .header .userUl .userInfo {
-  color: #4ed1b0;
+  color: #6B8A7A;
 }
 
 .page .content-area .header .userUl .activites-list {
-  color: #4ed1b0;
+  color: #6B8A7A;
 }
 
 .page .content-area .header .userUl .userLinks .link-box .userIcons,
 .page .content-area .header .userUl .userLinks .link-box span {
-  color: #58B19F;
+  color: #6B8A7A;
   cursor: pointer;
 }
 
 .page .content-area .header .headerIcons {
   cursor: pointer;
   z-index: 100;
-  color: #F8EFBA;
+  color: #DAD3BE;
 }
 
 .page .content-area .header .toggle-fullscreen {
@@ -794,9 +804,9 @@ body.roboto {
 
 .page .content-area .header .page-head {
   margin-top: 20px;
-  padding: 20px;
+  padding: 15px;
   z-index: 3;
-  background-color: rgba(248, 239, 186, 0.5);
+  background-color: rgb(218 211 190 / 30%);
   position: absolute;
   top: 95px;
   left: -32px;
@@ -821,15 +831,17 @@ body.roboto {
 }
 
 .page .ourServices {
-  background-color: #25CCF7;
+  /* background-color: #25CCF7; */
+  margin-top: 100px;
+  background-image: url("/Data/Background2.jpg");
 }
 
 .page .ourServices .servicesBox .serviceColl {
-  border: 2px solid #fff;
+  border: 2px solid #B7B597;
   margin: 0px 0 30px 0;
-  background-color: #f8efba;
-  -webkit-box-shadow: 0px 0px 10px 5px #eab543;
-  box-shadow: 0px 0px 10px 5px #eab543;
+  background-color: rgb(218 211 190 / 75%);
+  -webkit-box-shadow: 0px 0px 10px 5px #B7B597;
+  box-shadow: 0px 0px 10px 5px #B7B597;
   margin-right: 20px;
   width: 31%;
   border-radius: 10%;
@@ -861,7 +873,7 @@ body.roboto {
   position: absolute;
   width: 300%;
   height: 100%;
-  background-color: #1B9CFC;
+  background-color: #254336;
   left: 50%;
   top: 50%;
   -webkit-transform: translateX(-50%) skew(0, -10deg);
@@ -896,11 +908,13 @@ body.roboto {
 .page .showImage .card h2 {
   margin: 10px auto 10px auto;
   line-height: 1;
+  color: #DAD3BE;
 }
 
 .page .showImage .card p {
   margin: 0;
   line-height: 1;
+  color: #B7B597;
 }
 
 @-webkit-keyframes waving {
@@ -928,7 +942,7 @@ body.roboto {
 }
 
 .page .contact {
-  min-height: 600px;
+  /* min-height: 600px; */
   padding-top: 80px;
   position: relative;
 }
@@ -974,7 +988,8 @@ body.roboto {
 
 .page .contact form .right {
   float: right;
-  width: 49%;
+  width: 45%;
+  margin-right: 15px;
 }
 
 .page .contact form input:not([type=submit]),
@@ -982,9 +997,12 @@ body.roboto {
   display: block;
   width: 100%;
   padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #333;
+  margin-bottom: 20px;
+  border: 1px solid #B7B597;
+  border-radius: 5px;
   background-color: rgba(218, 218, 218, 0.19);
+  border-bottom-color: #254336;
+  box-shadow: 0px 3px 10px 0px #254336;
 }
 
 .page .contact form input:not([type=submit]):focus,
@@ -1003,11 +1021,14 @@ body.roboto {
 .page .contact form input[type=submit] {
   padding: 7px;
   width: 100%;
-  border-color: transparent;
-  background-color: #25CCF7;
+  border: 1px solid #B7B597;
+  border-radius: 5px;
+  background-color: #254336;
+  color: #DAD3BE;
   cursor: pointer;
   font-weight: 600;
   font-size: 1.25rem;
+  margin-top: 10px;
 }
 
 .page .contact form textarea:focus::-webkit-input-placeholder,
@@ -1066,35 +1087,51 @@ body.roboto {
 
 .page .contact .info .label {
   font-size: 2.5rem;
+  color: #254336;
 }
 
 .page .contact .info .link {
   text-decoration: none;
   font-size: 2rem;
+  color: #6B8A7A;
+}
+
+.page .contact .info .link:hover {
+  font-size: 3rem;
+  color: #254336;
 }
 
 .page .contact .info .social {
-  margin-top: 25px;
+  margin-top: 50px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   justify-content: center;
-  margin-top: 20px;
-  font-size: 16px;
+  font-size: 2rem;
 }
 
-.page .contact .info .social .youTube,
-.page .contact .info .social .faceBook,
-.page .contact .info .social .twitter {
-  margin-left: 20px;
+.page .contact .info .socialIcons a {
+  color: #254336;
+  text-decoration: none;
+}
+
+.page .contact .info .socialIcons a:hover {
+  color: #6B8A7A;
+}
+
+.page .contact .info .socialIcons a .youTube,
+.page .contact .info .socialIcons a .faceBook,
+.page .contact .info .socialIcons a .twitter { 
+  margin-left: 30px;
   cursor: pointer;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
+  margin-top: 5px;
 }
 
 .page .footer {
-  background-color: #1B9CFC;
+  background-color: #254336;
   color: #F8EFBA;
   line-height: 2.5rem;
   padding: 25px;
@@ -1102,10 +1139,15 @@ body.roboto {
   font-size: 20px;
 }
 
-.page .footer span {
-  font-weight: bold;
-  color: #EAB543;
-  font-size: 22px;
+.page .footer a {
+  text-decoration: none;
+  font-weight: 600;
+  color: #DAD3BE;
+  font-size: 30px;
+}
+
+.page .footer a:hover {
+  color: #6B8A7A;
 }
 
 .clearfix {
@@ -1217,7 +1259,7 @@ body.roboto {
   }
 
   .ourWork .workBox .workImage {
-    width: 50%;
+    width: 100%;
     margin-bottom: 50px !important;
   }
 
@@ -1236,10 +1278,11 @@ body.roboto {
   .page .showImage .card p {
     margin-bottom: -10px;
   }
-
+/* 
   .page .contact {
     min-height: 480px;
   }
+   */
   .page .contact h2 {
     margin-bottom: 30px;
   }
@@ -1253,7 +1296,7 @@ body.roboto {
     padding: 10px;
     font-size: 10px;
   }
-  .page .footer span {
+  .page .footer a {
     font-size: 15px;
   }
 }
